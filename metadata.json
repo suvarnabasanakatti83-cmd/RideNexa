@@ -1,0 +1,6 @@
+{
+  "name": "RideNexa",
+  "description": "Intelligent urban mobility platform featuring fair driver allocation, demand forecasting, ride pooling, smart driver repositioning, and route optimization.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

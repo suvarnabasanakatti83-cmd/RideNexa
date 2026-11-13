@@ -1,0 +1,562 @@
+{
+  "users": [
+    {
+      "id": "user-passenger-demo",
+      "name": "Aarav Sharma",
+      "email": "passenger@ridenexa.io",
+      "passwordHash": "$2b$10$VZECaQdmOTAnrE0D8g8ab.FvToLtviXgC5oysZnVIODTDI6foMETO",
+      "role": "PASSENGER",
+      "phone": "+91 98450 11223",
+      "createdAt": "2026-11-13T08:30:59.612Z"
+    },
+    {
+      "id": "user-driver-demo",
+      "name": "Arjun Nair",
+      "email": "driver@ridenexa.io",
+      "passwordHash": "$2b$10$VZECaQdmOTAnrE0D8g8ab.FvToLtviXgC5oysZnVIODTDI6foMETO",
+      "role": "DRIVER",
+      "phone": "+91 98450 44556",
+      "createdAt": "2026-11-13T08:30:59.612Z"
+    }
+  ],
+  "drivers": [
+    {
+      "id": "drv-101",
+      "userId": "user-driver-demo",
+      "name": "Arjun Nair",
+      "vehicleModel": "Tata Nexon EV",
+      "vehicleTier": "EV_COMFORT",
+      "plateNumber": "KA-01-EV-4821",
+      "rating": 4.92,
+      "isOnline": false,
+      "isAvailable": false,
+      "coordinates": {
+        "lat": 12.925,
+        "lng": 77.5938
+      },
+      "areaName": "Jayanagar 4th Block Square",
+      "ridesCompletedToday": 9,
+      "totalRidesCompleted": 1420,
+      "dailyEarnings": 1840,
+      "minutesSinceLastRide": 8,
+      "acceptanceRate": 0.96,
+      "isSimulatedLocation": true,
+      "lastUpdatedAt": "2026-11-13T08:35:11.796Z"
+    },
+    {
+      "id": "drv-102",
+      "name": "Meera Kulkarni",
+      "vehicleModel": "MG ZS EV",
+      "vehicleTier": "EV_COMFORT",
+      "plateNumber": "KA-03-EV-9012",
+      "rating": 4.88,
+      "isOnline": true,
+      "isAvailable": true,
+      "coordinates": {
+        "lat": 12.97601,
+        "lng": 77.60819
+      },
+      "areaName": "Richmond Circle",
+      "ridesCompletedToday": 3,
+      "totalRidesCompleted": 890,
+      "dailyEarnings": 620,
+      "minutesSinceLastRide": 42,
+      "acceptanceRate": 0.98,
+      "isSimulatedLocation": true,
+      "lastUpdatedAt": "2026-11-13T08:50:31.373Z"
+    },
+    {
+      "id": "drv-103",
+      "name": "Karthik Gowda",
+      "vehicleModel": "Maruti Dzire CNG",
+      "vehicleTier": "CITY_SEDAN",
+      "plateNumber": "KA-05-MN-3319",
+      "rating": 4.81,
+      "isOnline": true,
+      "isAvailable": true,
+      "coordinates": {
+        "lat": 12.94251,
+        "lng": 77.64153
+      },
+      "areaName": "Domlur Flyover",
+      "ridesCompletedToday": 4,
+      "totalRidesCompleted": 1120,
+      "dailyEarnings": 790,
+      "minutesSinceLastRide": 31,
+      "acceptanceRate": 0.93,
+      "isSimulatedLocation": true,
+      "lastUpdatedAt": "2026-11-13T08:50:31.373Z"
+    },
+    {
+      "id": "drv-104",
+      "name": "Farhan Siddiqui",
+      "vehicleModel": "Hyundai Aura",
+      "vehicleTier": "CITY_SEDAN",
+      "plateNumber": "KA-02-AB-7740",
+      "rating": 4.76,
+      "isOnline": true,
+      "isAvailable": true,
+      "coordinates": {
+        "lat": 12.95216,
+        "lng": 77.62388
+      },
+      "areaName": "Koramangala 4th Block",
+      "ridesCompletedToday": 11,
+      "totalRidesCompleted": 2150,
+      "dailyEarnings": 2310,
+      "minutesSinceLastRide": 5,
+      "acceptanceRate": 0.91,
+      "isSimulatedLocation": true,
+      "lastUpdatedAt": "2026-11-13T08:50:31.374Z"
+    },
+    {
+      "id": "drv-105",
+      "name": "Priya Menon",
+      "vehicleModel": "Tata Tiago EV",
+      "vehicleTier": "ECO_HATCH",
+      "plateNumber": "KA-04-EV-1193",
+      "rating": 4.95,
+      "isOnline": true,
+      "isAvailable": true,
+      "coordinates": {
+        "lat": 12.92774,
+        "lng": 77.59569
+      },
+      "areaName": "Jayanagar 4th Block",
+      "ridesCompletedToday": 2,
+      "totalRidesCompleted": 640,
+      "dailyEarnings": 430,
+      "minutesSinceLastRide": 51,
+      "acceptanceRate": 0.99,
+      "isSimulatedLocation": true,
+      "lastUpdatedAt": "2026-11-13T08:50:31.374Z"
+    },
+    {
+      "id": "drv-106",
+      "name": "Rohan Deshmukh",
+      "vehicleModel": "Toyota Innova Hycross",
+      "vehicleTier": "POOL_SHARE",
+      "plateNumber": "KA-01-MP-6520",
+      "rating": 4.86,
+      "isOnline": true,
+      "isAvailable": true,
+      "coordinates": {
+        "lat": 12.97649,
+        "lng": 77.63441
+      },
+      "areaName": "Indiranagar 100ft",
+      "ridesCompletedToday": 5,
+      "totalRidesCompleted": 980,
+      "dailyEarnings": 1120,
+      "minutesSinceLastRide": 24,
+      "acceptanceRate": 0.95,
+      "isSimulatedLocation": true,
+      "lastUpdatedAt": "2026-11-13T08:50:31.374Z"
+    },
+    {
+      "id": "drv-107",
+      "name": "Suresh Babu",
+      "vehicleModel": "Maruti Swift",
+      "vehicleTier": "ECO_HATCH",
+      "plateNumber": "KA-05-KL-2094",
+      "rating": 4.79,
+      "isOnline": true,
+      "isAvailable": true,
+      "coordinates": {
+        "lat": 13.03415,
+        "lng": 77.58964
+      },
+      "areaName": "Hebbal Outer Ring",
+      "ridesCompletedToday": 3,
+      "totalRidesCompleted": 730,
+      "dailyEarnings": 580,
+      "minutesSinceLastRide": 37,
+      "acceptanceRate": 0.94,
+      "isSimulatedLocation": true,
+      "lastUpdatedAt": "2026-11-13T08:50:31.375Z"
+    },
+    {
+      "id": "drv-108",
+      "name": "Ananya Rao",
+      "vehicleModel": "BYD Atto 3",
+      "vehicleTier": "POOL_SHARE",
+      "plateNumber": "KA-51-EV-8832",
+      "rating": 4.94,
+      "isOnline": true,
+      "isAvailable": true,
+      "coordinates": {
+        "lat": 12.97125,
+        "lng": 77.72037
+      },
+      "areaName": "Marathahalli Bridge",
+      "ridesCompletedToday": 6,
+      "totalRidesCompleted": 1310,
+      "dailyEarnings": 1490,
+      "minutesSinceLastRide": 19,
+      "acceptanceRate": 0.97,
+      "isSimulatedLocation": true,
+      "lastUpdatedAt": "2026-11-13T08:50:31.375Z"
+    }
+  ],
+  "rides": [
+    {
+      "id": "ride-mweq3y8w-bru",
+      "passengerId": "user-passenger-demo",
+      "passengerName": "Aarav Sharma",
+      "driverId": "drv-105",
+      "driverName": "Priya Menon",
+      "vehicleModel": "Tata Tiago EV",
+      "plateNumber": "KA-04-EV-1193",
+      "vehicleTier": "ECO_HATCH",
+      "pickupAddress": "MG Road Transit Hub",
+      "pickupCoords": {
+        "lat": 12.9756,
+        "lng": 77.6066
+      },
+      "destinationAddress": "Whitefield Tech Corridor",
+      "destinationCoords": {
+        "lat": 12.9698,
+        "lng": 77.7499
+      },
+      "distanceKm": 19.27,
+      "durationMin": 47,
+      "estimatedFare": 300,
+      "pooledDiscountFare": 216,
+      "status": "REQUESTED",
+      "allocationReason": "Selected Priya Menon (65.2 pts, 16 min ETA). They offer the strongest balance of proximity (6.32 km), low daily workload (2 trips), and 4.95 service reliability.",
+      "allocationScore": 65.2,
+      "routePath": [
+        [
+          12.9756,
+          77.6066
+        ],
+        [
+          12.96394,
+          77.65349
+        ],
+        [
+          12.96019,
+          77.70358
+        ],
+        [
+          12.9698,
+          77.7499
+        ]
+      ],
+      "requestedAt": "2026-11-13T08:37:05.696Z",
+      "isSimulatedDemo": false
+    },
+    {
+      "id": "ride-mweq3hmp-q9i",
+      "passengerId": "user-passenger-demo",
+      "passengerName": "Aarav Sharma",
+      "driverId": "drv-102",
+      "driverName": "Meera Kulkarni",
+      "vehicleModel": "MG ZS EV",
+      "plateNumber": "KA-03-EV-9012",
+      "vehicleTier": "EV_COMFORT",
+      "pickupAddress": "MG Road Transit Hub",
+      "pickupCoords": {
+        "lat": 12.9756,
+        "lng": 77.6066
+      },
+      "destinationAddress": "Whitefield Tech Corridor",
+      "destinationCoords": {
+        "lat": 12.9698,
+        "lng": 77.7499
+      },
+      "distanceKm": 19.27,
+      "durationMin": 47,
+      "estimatedFare": 412,
+      "pooledDiscountFare": 297,
+      "status": "CANCELLED",
+      "allocationReason": "Selected Meera Kulkarni (71.4 pts, 4 min ETA). They offer the strongest balance of proximity (1.64 km), low daily workload (3 trips), and 4.88 service reliability.",
+      "allocationScore": 71.4,
+      "routePath": [
+        [
+          12.9756,
+          77.6066
+        ],
+        [
+          12.96394,
+          77.65349
+        ],
+        [
+          12.96019,
+          77.70358
+        ],
+        [
+          12.9698,
+          77.7499
+        ]
+      ],
+      "requestedAt": "2026-11-13T08:36:44.161Z",
+      "isSimulatedDemo": false,
+      "cancelledAt": "2026-11-13T08:36:51.134Z"
+    },
+    {
+      "id": "ride-mwepw9d6-cun",
+      "passengerId": "user-passenger-demo",
+      "passengerName": "Aarav Sharma",
+      "driverId": "drv-101",
+      "driverName": "Arjun Nair",
+      "vehicleModel": "Tata Nexon EV",
+      "plateNumber": "KA-01-EV-4821",
+      "vehicleTier": "EV_COMFORT",
+      "pickupAddress": "MG Road Transit Hub",
+      "pickupCoords": {
+        "lat": 12.9756,
+        "lng": 77.6066
+      },
+      "destinationAddress": "Whitefield Tech Corridor",
+      "destinationCoords": {
+        "lat": 12.9698,
+        "lng": 77.7499
+      },
+      "distanceKm": 19.27,
+      "durationMin": 47,
+      "estimatedFare": 412,
+      "pooledDiscountFare": 297,
+      "status": "CANCELLED",
+      "allocationReason": "Selected Meera Kulkarni (86.8 pts) over nearest driver Arjun Nair (0.72 km). Although Arjun Nair is 2 min closer, they already completed 9 trips today with only 8 min idle. Meera Kulkarni had 3 trips today and waited 42 min, delivering a balanced 4-min pickup while preventing earnings concentration.",
+      "allocationScore": 86.8,
+      "routePath": [
+        [
+          12.9756,
+          77.6066
+        ],
+        [
+          12.96394,
+          77.65349
+        ],
+        [
+          12.96019,
+          77.70358
+        ],
+        [
+          12.9698,
+          77.7499
+        ]
+      ],
+      "requestedAt": "2026-11-13T08:31:06.858Z",
+      "isSimulatedDemo": false,
+      "assignedAt": "2026-11-13T08:31:06.863Z",
+      "cancelledAt": "2026-11-13T08:31:06.912Z"
+    },
+    {
+      "id": "ride-demo-901",
+      "passengerId": "user-passenger-demo",
+      "passengerName": "Aarav Sharma",
+      "driverId": "drv-101",
+      "driverName": "Arjun Nair",
+      "vehicleModel": "Tata Nexon EV",
+      "plateNumber": "KA-01-EV-4821",
+      "vehicleTier": "EV_COMFORT",
+      "pickupAddress": "MG Road Transit Hub",
+      "pickupCoords": {
+        "lat": 12.9756,
+        "lng": 77.6066
+      },
+      "destinationAddress": "Indiranagar 100ft Metro",
+      "destinationCoords": {
+        "lat": 12.9784,
+        "lng": 77.6408
+      },
+      "distanceKm": 4.2,
+      "durationMin": 14,
+      "estimatedFare": 168,
+      "status": "COMPLETED",
+      "allocationReason": "Balanced pickup ETA (4 min) with fair daily workload distribution.",
+      "allocationScore": 89.4,
+      "routePath": [
+        [
+          12.9756,
+          77.6066
+        ],
+        [
+          12.9769,
+          77.6215
+        ],
+        [
+          12.9784,
+          77.6408
+        ]
+      ],
+      "requestedAt": "2026-11-13T06:10:59.613Z",
+      "assignedAt": "2026-11-13T06:12:59.613Z",
+      "completedAt": "2026-11-13T06:28:59.613Z",
+      "isSimulatedDemo": true
+    },
+    {
+      "id": "ride-demo-902",
+      "passengerId": "user-passenger-demo",
+      "passengerName": "Aarav Sharma",
+      "driverId": "drv-102",
+      "driverName": "Meera Kulkarni",
+      "vehicleModel": "MG ZS EV",
+      "plateNumber": "KA-03-EV-9012",
+      "vehicleTier": "EV_COMFORT",
+      "pickupAddress": "Koramangala 4th Block",
+      "pickupCoords": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "destinationAddress": "Whitefield Tech Corridor",
+      "destinationCoords": {
+        "lat": 12.9698,
+        "lng": 77.7499
+      },
+      "distanceKm": 14.8,
+      "durationMin": 36,
+      "estimatedFare": 412,
+      "pooledDiscountFare": 284,
+      "status": "COMPLETED",
+      "allocationReason": "Prioritized idle-time equity (42 min wait) within 1.4 km radius.",
+      "allocationScore": 92.1,
+      "routePath": [
+        [
+          12.9352,
+          77.6245
+        ],
+        [
+          12.9562,
+          77.6942
+        ],
+        [
+          12.9698,
+          77.7499
+        ]
+      ],
+      "requestedAt": "2026-11-13T03:10:59.613Z",
+      "assignedAt": "2026-11-13T03:12:59.613Z",
+      "completedAt": "2026-11-13T03:50:59.613Z",
+      "isSimulatedDemo": true
+    },
+    {
+      "id": "ride-demo-903",
+      "passengerId": "pass-sim-2",
+      "passengerName": "Neha Verma",
+      "driverId": "drv-106",
+      "driverName": "Rohan Deshmukh",
+      "vehicleModel": "Toyota Innova Hycross",
+      "plateNumber": "KA-01-MP-6520",
+      "vehicleTier": "POOL_SHARE",
+      "pickupAddress": "Indiranagar 100ft Metro",
+      "pickupCoords": {
+        "lat": 12.9784,
+        "lng": 77.6408
+      },
+      "destinationAddress": "Hebbal Outer Ring Interchange",
+      "destinationCoords": {
+        "lat": 13.0358,
+        "lng": 77.597
+      },
+      "distanceKm": 9.6,
+      "durationMin": 24,
+      "estimatedFare": 295,
+      "pooledDiscountFare": 204,
+      "status": "COMPLETED",
+      "allocationReason": "High route compatibility for pooled corridor.",
+      "allocationScore": 87.8,
+      "routePath": [
+        [
+          12.9784,
+          77.6408
+        ],
+        [
+          13.0085,
+          77.6194
+        ],
+        [
+          13.0358,
+          77.597
+        ]
+      ],
+      "requestedAt": "2026-11-13T05:00:59.613Z",
+      "assignedAt": "2026-11-13T05:02:59.613Z",
+      "completedAt": "2026-11-13T05:28:59.613Z",
+      "isSimulatedDemo": true
+    },
+    {
+      "id": "ride-demo-904",
+      "passengerId": "pass-sim-3",
+      "passengerName": "Vikram Patel",
+      "driverId": "drv-105",
+      "driverName": "Priya Menon",
+      "vehicleModel": "Tata Tiago EV",
+      "plateNumber": "KA-04-EV-1193",
+      "vehicleTier": "ECO_HATCH",
+      "pickupAddress": "Jayanagar 4th Block Square",
+      "pickupCoords": {
+        "lat": 12.925,
+        "lng": 77.5938
+      },
+      "destinationAddress": "MG Road Transit Hub",
+      "destinationCoords": {
+        "lat": 12.9756,
+        "lng": 77.6066
+      },
+      "distanceKm": 6.1,
+      "durationMin": 18,
+      "estimatedFare": 158,
+      "status": "COMPLETED",
+      "allocationReason": "Lowest daily workload in Jayanagar sector with 4.95 rating.",
+      "allocationScore": 94,
+      "routePath": [
+        [
+          12.925,
+          77.5938
+        ],
+        [
+          12.9502,
+          77.5998
+        ],
+        [
+          12.9756,
+          77.6066
+        ]
+      ],
+      "requestedAt": "2026-11-13T06:55:59.613Z",
+      "assignedAt": "2026-11-13T06:56:59.613Z",
+      "completedAt": "2026-11-13T07:16:59.613Z",
+      "isSimulatedDemo": true
+    },
+    {
+      "id": "ride-demo-905",
+      "passengerId": "pass-sim-4",
+      "passengerName": "Divya Krishnan",
+      "vehicleTier": "CITY_SEDAN",
+      "pickupAddress": "Koramangala 4th Block",
+      "pickupCoords": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "destinationAddress": "Electronic City Phase 1",
+      "destinationCoords": {
+        "lat": 12.8452,
+        "lng": 77.6602
+      },
+      "distanceKm": 11.4,
+      "durationMin": 27,
+      "estimatedFare": 318,
+      "status": "REQUESTED",
+      "routePath": [
+        [
+          12.9352,
+          77.6245
+        ],
+        [
+          12.891,
+          77.6415
+        ],
+        [
+          12.8452,
+          77.6602
+        ]
+      ],
+      "requestedAt": "2026-11-13T08:27:59.613Z",
+      "isSimulatedDemo": true
+    }
+  ],
+  "contacts": []
+}
